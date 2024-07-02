@@ -106,6 +106,7 @@ p {
 .header-content {
     background: #F2F4F4;
     margin: 0;
+    max-width: 100%;
 }
 
 nav {
