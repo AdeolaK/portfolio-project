@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Adeola is a front-end engineer who finds pleasure in tackling new challenges and acquiring new skills, based in Maryland, USA."
+    />
+    <title>About Adeola - Adeola Kehinde</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,14 +34,16 @@
   <body>
     <div class="container header-content">
       <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img src="/images/logo.jpeg" alt="" class="logo" />
+        <a href="/" title="Homepage">
+          <img src="/images/logo.jpeg" alt="Adeola Logo" class="logo" />
         </a>
         <ul>
-          <li><a href="/">Home</a></li>
-          <li class="active"><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Adeola">About</a>
+          </li>
+          <li><a href="/work.html" title="Adeola's work">Work</a></li>
+          <li><a href="/contact.html" title="Contact Adeola">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -46,22 +52,82 @@
         <div class="col-lg-6">
           <div class="content">
             <h1 class="mb-4">Hi I am Adeola Kehinde</h1>
-            <h2 class="mb-4">
-              Frontend Developer, based in Maryland, USA.
-            </h2>
+            <h2 class="mb-4">Frontend Developer, based in Maryland, USA.</h2>
             <p class="mb-5">
               For anyone who wants to start learning code, this workshop is very
               interesting. You will be challenged with different exercises, and
               everything is well explained, homework and deadlines are good for
               keeping focus
             </p>
-            <a href="" class="btn btn-branding">View my projects</a>
+            <a href="/work.html" class="btn btn-branding">View my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="/images/adeola.JPEG" alt="" class="img-fluid rounded" />
+          <img
+            src="/images/adeola.JPEG"
+            alt="Adeola Kehinde"
+            class="img-fluid rounded engineer-adeola"
+          />
         </div>
       </div>
+      <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Adeola"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:adeolav04@gmail.com"
+            class="email-link"
+            title="Email Adeola"
+            >adeolav04@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a
+            href="https://www.github.com/AdeolaK"
+            target="_blank"
+            title="Github Profile"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/officiallyadeolaa/"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.twitter.com/adeolaa_v"
+            target="_blank"
+            title="Twitter Profile"
+          >
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by Adeola Kehinde, and it is
+          <a
+            href="https://www.github.com/AdeolaK/portfolio-project"
+            target="_blank"
+            title="Adeola's Project"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
